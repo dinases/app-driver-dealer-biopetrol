@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "627516018112",
+    "firebase_url": "https://waterdelivery-148120.firebaseio.com",
+    "project_id": "waterdelivery-148120",
+    "storage_bucket": "waterdelivery-148120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627516018112:android:77061441d09c70fd",
+        "android_client_info": {
+          "package_name": "com.luisbar.waterdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627516018112-cclbd6b579h81e3gko778efns71jg1mk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luisbar.waterdelivery",
+            "certificate_hash": "ACA7E5C6579935963788177CC5D16EB194F4024D"
+          }
+        },
+        {
+          "client_id": "627516018112-8pc1us1jvnk16p6nh49neuatp8pi3ea1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPQwN9wgpSNHnR0Td-KaBfqSrbF5uQB6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627516018112-8pc1us1jvnk16p6nh49neuatp8pi3ea1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
