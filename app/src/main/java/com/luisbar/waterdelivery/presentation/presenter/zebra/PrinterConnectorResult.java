@@ -47,7 +47,7 @@ public class PrinterConnectorResult implements Handler.Callback {
                                 break;
 
                             case IMAGE_NOT_SAVED:
-                                printerConnectorResultI.isNotConnected(WaterDeliveryApplication.resources.getString(R.string.txt_89));
+                                printerConnectorResultI.isNotConnected(WaterDeliveryApplication.resources.getString(R.string.txt_91));
                                 setFinished(0);
                                 break;
                         }

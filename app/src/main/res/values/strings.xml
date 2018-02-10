@@ -87,4 +87,6 @@
     <string name="txt_87">Imprimiendo factura</string>
     <string name="txt_88">No se sincronizo la impresora</string>
     <string name="txt_89">Respaldo de la factura no se pudo guardar en la nube</string>
+    <string name="txt_90">Imprimiendo recibo</string>
+    <string name="txt_91">Respaldo de la recibo no se pudo guardar en la nube</string>
 </resources>

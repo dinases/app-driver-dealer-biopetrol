@@ -153,7 +153,7 @@ public class InvoiceFragment extends BaseFragment implements InvoiceFragmentI, C
 
             case R.id.action_check:
                 showDialog(Config.PROGRESS_DIALOG_FRAGMENT, ProgressDialogFragment.newInstance(getString(R.string.txt_47),
-                        getString(R.string.txt_87)));
+                        getString(R.string.txt_90)));
 
                 LayoutInflater inflater = getLayoutInflater(getArguments());
                 View mView = inflater.inflate(R.layout.pdf_invoice, null);
@@ -204,7 +204,7 @@ public class InvoiceFragment extends BaseFragment implements InvoiceFragmentI, C
         textCountry.setText(lstInf.get(5));
         textSfc.setText("Sfc: " + lstInf.get(6));
         textNit.setText("Nit: " + lstInf.get(7));
-        textInvoiceNumber.setText("Factura Nro.: " + lstInf.get(8));
+        textInvoiceNumber.setText("N°: " + lstInf.get(8));
         textAutorizationNumber.setText("Autorizacion Nro.: " + lstInf.get(9));
         textCategory.setText(lstInf.get(10));
         textDate.setText("Fecha: " + lstInf.get(11));

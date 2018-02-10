@@ -160,16 +160,20 @@ public class PrinterManager implements DiscoveryResult.DiscoveryResultI,
 
         if (density >= 3.0) {// xxhdpi
             width = 676;
-            height = 2280;
+            /*height = 2280;*/
+            height = 1254;
         } else if (density >= 2.0) {// xhdpi
             width = 450;
-            height = 1512;
+            /*height = 1512;*/
+            height = 831;
         } else if (density >= 1.5) {// hdpi
             width = 338;
-            height = 1149;
+            /*height = 1149;*/
+            height = 631;
         } else if (density >= 1.0) {// mdpi
             width = 300;
-            height = 1020;
+            /*height = 1020;*/
+            height = 561;
         }
 
         return Arrays.asList(width, height);
